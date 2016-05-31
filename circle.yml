@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - pip install pycodestyle
+
+test:
+  pre:
+    - pycodestyle . --exclude="env,venv,build,.git,lib" --ignore="E501" --show-source
