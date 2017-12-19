@@ -8,7 +8,7 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    replaces = [('dj_bioinformatics_protein', '0001_initial'), ('dj_bioinformatics_protein', '0002_remove_alignment_sha256'), ('dj_bioinformatics_protein', '0003_auto_20160227_0008'), ('dj_bioinformatics_protein', '0004_auto_20170621_1918'), ('dj_bioinformatics_protein', '0005_auto_20170627_2014'), ('dj_bioinformatics_protein', '0006_auto_20170707_0908')]
+    replaces = [('dj_bioinformatics_protein', '0001_initial'), ('dj_bioinformatics_protein', '0002_remove_alignment_sha256'), ('dj_bioinformatics_protein', '0003_auto_20160227_0008'), ('dj_bioinformatics_protein', '0004_auto_20170621_1918'), ('dj_bioinformatics_protein', '0005_auto_20170627_2014')]
 
     dependencies = [
     ]
